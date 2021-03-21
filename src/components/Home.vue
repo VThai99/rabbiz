@@ -1,11 +1,12 @@
 <template>
   <div class="all">
-    <header>
+    <div class="contain">
+      <header>
       <div class="row header_top">
-        <div class="logo col-md-5 col-sm-5 col-lg-5 col-5">
+        <div class="logo col-5">
           <img src="../assets/rabbiz/logo.png" alt="" />
         </div>
-        <div class="div_menu col-md-7 col-sm-7 col-lg-7 col-7">
+        <div class="div_menu col-7">
           <!-- <ul class="menu">
             <li>HOME</li>
             <li>RABBIZ FARM</li>
@@ -57,29 +58,34 @@
         </div>
       </div>
     </header>
+    </div>
+    
 
     <div class="introduction">
-      <div class="title"><i class="title_text">INTRODUCTION</i></div>
-      <div class="row troduction_content">
-        <div class="col-lg-6 introduction_image_form">
-          <img
-            id="introduction_img"
-            src="../assets/rabbiz/introduction_img.png"
-            alt=""
-          />
-        </div>
-        <div class="col-lg-6 introduction_left_text">
-          <div class="introduction_textbox">
-            <p class="introduction_text">
-              Rabbiz is a blockchain-based decentralized financial application
-              of Tron(Trx). Thisis a DeFi project that has the most attention
-              recently.
-            </p>
-            <p class="introduction_text">
-              Rabbiz is a token with exponential growth over time due to trading
-              on major exchanges, accompanied with interesting and fun games
-              during user's participation.
-            </p>
+     
+      <div class="contain">
+        <div class="title"><i class="title_text">INTRODUCTION</i></div>
+        <div class="row troduction_content">
+          <div class="col-lg-6 ">
+             <img
+        id="introduction_img"
+        src="../assets/rabbiz/introduction_img.png"
+        alt=""
+      />
+          </div>
+          <div class="col-lg-6 introduction_left_text">
+            <div class="introduction_textbox">
+              <p class="introduction_text">
+                Rabbiz is a blockchain-based decentralized financial application
+                of Tron(Trx). Thisis a DeFi project that has the most attention
+                recently.
+              </p>
+              <p class="introduction_text">
+                Rabbiz is a token with exponential growth over time due to
+                trading on major exchanges, accompanied with interesting and fun
+                games during user's participation.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -89,34 +95,42 @@
     </div>
 
     <div class="vision_mission">
-      <span id="vision_mission_text1">
-        <p>
-          Rabbiz will become the top 30 Crypto in the Cryptocurrency market.
-        </p>
-      </span>
-      <span id="vision_mission_text2">
-        <p>
-          Rabbiz helps users to maximize personal finances in the most efficient
-          manner through its ecosystems.
-        </p>
-      </span>
-      <span id="vision_mission_text3">
-        <p>
-          Rabbiz offers its users the most diverse, unique ecosystem in the
-          financial markets.
-        </p>
-      </span>
-      <span id="vision_mission_text4">
-        <p>
-          Rabbiz helps users to connect with each other simply, easily and
-          conveniently through the internet.
-        </p>
-      </span>
-      <img
-        id="vision_mission_img"
-        src="../assets/rabbiz/vision_mission.png"
-        alt=""
-      />
+      <!-- <div>
+           <img src="../assets/rabbiz/vision_mission1.png" alt="">
+         </div> -->
+
+      <div class="contain">
+        <div class="content">
+          <span id="vision_mission_text1">
+            <p>
+              Rabbiz will become the top 30 Crypto in the Cryptocurrency market.
+            </p>
+          </span>
+          <span id="vision_mission_text2">
+            <p>
+              Rabbiz helps users to maximize personal finances in the most
+              efficient manner through its ecosystems.
+            </p>
+          </span>
+          <span id="vision_mission_text3">
+            <p>
+              Rabbiz offers its users the most diverse, unique ecosystem in the
+              financial markets.
+            </p>
+          </span>
+          <span id="vision_mission_text4">
+            <p>
+              Rabbiz helps users to connect with each other simply, easily and
+              conveniently through the internet.
+            </p>
+          </span>
+          <img
+            id="vision_mission_img"
+            src="../assets/rabbiz/vision_mission.png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
     <div class="vision_mission2">
       <ul class="list_vision_mission">
@@ -144,316 +158,46 @@
     <div class="advantages_title">
       <I>ADVANTAGES</I>
     </div>
-    <div class="row">
-      <div class="col-6 advantages_list_text">
-        <div>
-          <ul class="list_advantages">
-            <li>
-              <span class="cha"><span class="con"></span></span>
-              The most novel and appealing DeFi application currently.
-            </li>
-            <li>
-              <span class="cha"><span class="con"></span></span>
-              Limited amount of tokens, resulting in scarcity.
-            </li>
-            <li>
-              <span class="cha"><span class="con"></span></span>
-              High security, low cost, fast and accurate confirmation time.
-            </li>
-            <li>
-              <span class="cha"><span class="con"></span></span>
-              Diverse and attractive ecosystem that is easy to join.
-            </li>
-          </ul>
+
+    <div class="contain">
+      <div class="row advantage">
+        <div class="col-6 advantages_list_text">
+          <div>
+            <ul class="list_advantages">
+              <li>
+                <span class="cha"><span class="con"></span></span>
+                The most novel and appealing DeFi application currently.
+              </li>
+              <li>
+                <span class="cha"><span class="con"></span></span>
+                Limited amount of tokens, resulting in scarcity.
+              </li>
+              <li>
+                <span class="cha"><span class="con"></span></span>
+                High security, low cost, fast and accurate confirmation time.
+              </li>
+              <li>
+                <span class="cha"><span class="con"></span></span>
+                Diverse and attractive ecosystem that is easy to join.
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-6 div_of_avantages_img">
-        <img
-          id="advantages_img"
-          src="../assets/rabbiz/advantages_img.png"
-          alt=""
-        />
+        <div class="col-6 div_of_avantages_img">
+          <img
+            id="advantages_img"
+            src="../assets/rabbiz/advantages_img.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
 
+    <!-- token rabbiz -->
+    <div class="advantages_title">
+      <I>TOKEN RABBIZ</I>
+    </div>
     <!-- quan -->
-    <div class="row banner_product">
-      <div class="col-6 banner_product_left">
-        <img src="../assets/rabbiz/Group110.jpg" alt="" />
-      </div>
-      <div class="col-6 banner_product_right">
-        <ul>
-          <li>
-            <span class="cha"><span class="con"></span></span>Token RABBIZ
-            denoted as RBIZ.
-          </li>
-          <li>
-            <span class="cha"><span class="con"></span></span>Platform:
-            Tron(Trx).
-          </li>
-          <li>
-            <span class="cha"><span class="con"></span></span>Algorithm: Trc20.
-          </li>
-          <li>
-            <span class="cha"><span class="con"></span></span>Total
-            supply:20,000,000 (Rbiz).
-          </li>
-          <li>
-            <span class="cha"><span class="con"></span></span>Starting priec:
-            $USD 0.1.
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer_product">
-      <div class="title_product">
-        <i>PRODUCTS</i>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row banner_roadmap">
-        <div class="col-3 box-in4">
-          <!-- <div class="number ">
-                        <span class="cha2 "><i>1</i></span>
-                    </div>
-                    <div class="in4 ">
-                        <h3>Airdrop program</h3>
-                        <div class="style_boder "></div>
-                    </div>
-
-                    <div class="logo_roadmap ">
-                        <i class="fas fa-users "></i>
-                    </div> -->
-          <img src="../assets/rabbiz/Group98.png" alt="" />
-          <h3>Airdrop program</h3>
-        </div>
-        <div class="col-3 box-in4">
-          <!-- <div class="number1 ">
-                        <span class="cha3 "><i>2</i></span>
-                    </div>
-                    <div class="in4 ">
-                        <h3>TRADE</h3>
-                        <div class="style_boder1 "></div>
-                    </div>
-                    <div class="logo_roadmap1 ">
-                        <i class="fas fa-chart-bar "></i>
-                    </div> -->
-          <img src="../assets/rabbiz/Group99.png" alt="" />
-          <h3>TRADE <br />(coming soon)</h3>
-        </div>
-        <div class="col-3 box-in4">
-          <!-- <div class="number2 ">
-                        <span class="cha4 "><i>3</i></span>
-                    </div>
-                    <div class="in4 ">
-                        <h3>Rabbiz farm</h3>
-                        <div class="style_boder2 "></div>
-                    </div>
-                    <div class="logo_roadmap2 ">
-                        <i class="fas fa-carrot "></i>
-                    </div> -->
-          <img src="../assets/rabbiz/Group101.png" alt="" />
-          <h3>
-            Rabbiz farm <br />
-            (coming soon)
-          </h3>
-        </div>
-        <div class="col-3 box-in4">
-          <!-- <div class="number3 ">
-                        <span class="cha5 "><i>4</i></span>
-                    </div>
-                    <div class="in4 ">
-                        <h3>Rabbiz Game</h3>
-                        <div class="style_boder3 "></div>
-                    </div>
-                    <div class="logo_roadmap3 ">
-                        <i class="fas fa-gamepad "></i>
-                    </div> -->
-          <img src="../assets/rabbiz/Group100.png" alt="" />
-          <h3>
-            Rabbiz Game <br />
-            (coming soon)
-          </h3>
-        </div>
-      </div>
-      <div class="row banner_roadmapmobile">
-        <div class="col-6 box-in4">
-          <img src="../assets/rabbiz/Group98.png" alt="" />
-          <h3>Airdrop program</h3>
-        </div>
-        <div class="col-6 box-in4">
-          <img src="../assets/rabbiz/Group99.png" alt="" />
-          <h3>TRADE <br />(coming soon)</h3>
-        </div>
-      </div>
-      <div class="row banner_roadmapmobile">
-        <div class="col-6 box-in4">
-          <img src="../assets/rabbiz/Group101.png" alt="" />
-          <h3>
-            Rabbiz farm <br />
-            (coming soon)
-          </h3>
-        </div>
-        <div class="col-6 box-in4">
-          <img src="../assets/rabbiz/Group100.png" alt="" />
-          <h3>
-            Rabbiz Game <br />
-            (coming soon)
-          </h3>
-        </div>
-      </div>
-
-      <div class="row farm_game">
-        <div class="col-5 Rabbiz_farm">
-          <div class="title_farm">
-            <h4>Rabbiz Farm</h4>
-          </div>
-          <div class="underlined"></div>
-          <div class="text_farm">
-            <p>
-              A high yield farming provider available from the DeFi protocols;
-              optimizes the yields that are received using the latest blockchain
-              techniques.
-            </p>
-          </div>
-          <div class="but_farm">
-            <button type="button " class="btn btn-secondary">
-              COMING SOON
-            </button>
-          </div>
-          <img src="../assets/rabbiz/Layer116.png" alt="" />
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 Rabbiz_farm">
-          <div class="title_farm">
-            <h4>Rabbiz Game</h4>
-          </div>
-          <div class="underlined"></div>
-          <div class="text_farm">
-            <p>
-              Shooting Ball is an attractive and interesting game.Complete the
-              games for earn the token reward.
-            </p>
-          </div>
-          <div class="but_farm1">
-            <button type="button " class="btn btn-secondary">
-              COMING SOON
-            </button>
-          </div>
-          <img src="../assets/rabbiz/Layer116.png" alt="" />
-        </div>
-      </div>
-      <div class="row farm_gamemobile">
-        <div class="col-12 Rabbiz_farm">
-          <div class="title_farm">
-            <h4>Rabbiz Farm</h4>
-          </div>
-          <div class="underlined"></div>
-          <div class="text_farm">
-            <p>
-              A high yield farming provider available from the DeFi protocols;
-              optimizes the yields that are received using the latest blockchain
-              techniques.
-            </p>
-          </div>
-          <div class="but_farm">
-            <button type="button " class="btn btn-secondary">
-              COMING SOON
-            </button>
-          </div>
-          <img src="../assets/rabbiz/Layer116.png" alt=" " />
-        </div>
-      </div>
-      <div class="row farm_gamemobile">
-        <div class="col-12 Rabbiz_farm">
-          <div class="title_farm">
-            <h4>Rabbiz Game</h4>
-          </div>
-          <div class="underlined"></div>
-          <div class="text_farm">
-            <p>
-              Shooting Ball is an attractive and interesting game.Complete the
-              games for earn the token reward.
-            </p>
-          </div>
-          <div class="but_farm1">
-            <button type="button " class="btn btn-secondary">
-              COMING SOON
-            </button>
-          </div>
-          <img src="src\assets\rabbiz\Layer116.png" alt="">
-        </div>
-      </div>
-      <div class="row rabbiz_token">
-        <div class="col-5">
-          <div class="button_rabiz_token">
-            <button type="button " class="btn btn-light">
-              <h5>RABBIZ TOKEN</h5>
-            </button>
-          </div>
-          <div class="button_buy_token">
-            <button type="button " class="btn btn-danger">BUY TOKEN</button>
-          </div>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 more_in4">
-          <ul>
-            <li>
-              <span class="cha"><span class="con"></span></span>TRC token with
-              best trnsaction fee
-            </li>
-            <li>
-              <span class="cha"><span class="con"></span></span>Will be traded
-              in Vindax, Cointiger, Binance
-            </li>
-            <li>
-              <span class="cha"><span class="con"></span></span>Algorithm:
-              Trc20.
-            </li>
-            <li>
-              <span class="cha"><span class="con"></span></span> Attractive
-              bonus
-            </li>
-            <li>
-              <span class="cha"><span class="con"></span></span>Supreme agent
-              policy
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="main_roadmap">
-     <img src="src\assets\rabbiz\Group127.png" alt="">
-      <div class="index1">
-        <h5>
-          Start of Airdrop <br />
-          Rbiz 01/03/2021
-        </h5>
-      </div>
-      <div class="index2">
-        <h5>
-          RBIZ be listed on <br />
-          Vindax on March <br />
-          2021- April 2021
-        </h5>
-      </div>
-      <div class="index3">
-        <h5>
-          RRBIZ be listed <br />
-          on Cointiger in June <br />
-          2021 - 7/2021
-        </h5>
-      </div>
-      <div class="index4">
-        <h5>
-          RBIZ be listed on <br />
-          Binance exchange <br />
-          in November <br />
-          08/2021-12/2021
-        </h5>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -474,9 +218,11 @@ jQuery(document).ready(function () {
 export default {};
 </script>
 <style>
-.all{
-  width: 1440px;
+.contain {
+    width: 1900px;
+    margin: 0 auto;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -484,18 +230,20 @@ export default {};
 /* .navbar{
   display: none !important;
 } */
-
+.advantage {
+  padding: 2vw 0px;
+}
 .advantages_list_text {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .list_advantages li {
-  list-style: none;
-  margin: 40px 0px;
-  text-align: left;
-  font-weight: 800;
-  font-size: 24px;
+    list-style: none;
+    padding: 18px 0px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 24px;
 }
 .cha {
   background-color: white;
@@ -525,115 +273,131 @@ export default {};
 .advantages_title {
   background-color: #ff7a9d;
   width: 100%;
-  height: 8vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .advantages_title i {
-  color: white;
-  font-weight: 600;
-  font-size: 3vw;
-  padding: 12px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 21px 0px;
 }
 .vision_mission2 {
   display: none;
 }
 #vision_mission_img {
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #vision_mission_text4 {
   position: absolute;
-  bottom: 16vw;
+  bottom: 22%;
   color: #a16c78;
   text-align: left;
-  font-size: 1.5vw;
   word-spacing: 5px;
   height: 1vw;
-  width: 31vw;
-  right: 2vw;
+  width: 30%;
+  right: 3%;
+  z-index: 10;
+  font-size: 24px;
 }
 #vision_mission_text3 {
   position: absolute;
-  top: 10vw;
+  bottom: 22%;
   color: #a16c78;
   text-align: left;
-  font-size: 1.5vw;
+  font-size: 24px;
   word-spacing: 5px;
   height: 1vw;
-  width: 31vw;
-  right: 2vw;
+  width: 30%;
+  left: 4%;
+  z-index: 10;
 }
 #vision_mission_text2 {
   position: absolute;
-  bottom: 16vw;
   color: #a16c78;
   text-align: left;
-  font-size: 1.5vw;
   word-spacing: 5px;
   height: 1vw;
-  width: 31vw;
-  left: 4vw;
+  width: 30%;
+  top: 9%;
+  right: 3%;
+  z-index: 10;
+  font-size: 24px;
+}
+.vision_mission .content {
+  position: relative;
+  width: 100%;
+  height: 650px;
 }
 
 #vision_mission_text1 {
   position: absolute;
-  top: 10vw;
   color: #a16c78;
   text-align: left;
-  font-size: 1.5vw;
   word-spacing: 5px;
   height: 1vw;
-  width: 31vw;
-  left: 4vw;
+  top: 12%;
+  left: 4%;
+  z-index: 10;
+  font-size: 24px;
+  width: 30%;
 }
 .vision_mission {
   padding: 120px 0px;
-  position: relative;
 }
 .vision_mission_tittle {
   background-color: #ff7a9d;
   position: absolute;
   width: 100%;
-  bottom: 0px;
+  bottom: -100px;
 }
 .vision_mission_tittle p {
-  color: white;
-  font-weight: 600;
-  font-size: 3vw;
-  padding: 12px 0px;
-  font-style: italic;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 12px 0px;
+    font-style: italic;
+}
+.introduction img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 675px;
 }
 .introduction_text {
-  line-height: 3.5vw;
-  font-size: 1.5vw;
-  text-align: left;
-  margin: 15px 0px 0px 20px;
+    line-height: 57px;
+    font-size: 26px;
+    text-align: left;
+    margin: 15px 0px 0px 20px;
 }
 .introduction_textbox {
   border: 1px solid black;
   border-radius: 10px;
   height: auto;
   width: 100%;
+  margin: 120px 0;
 }
 .introduction_left_text {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#introduction_img {
-  width: 100%;
-}
+
 .introduction_image_form {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 .title {
-  background-color: transparent;
-  position: absolute;
-  z-index: 2;
-  top: 1%;
-  left: 40%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+    left: 0;
+    width: 100%;
 }
 /* .title_text {
   font-weight: 800 !important;
@@ -645,47 +409,48 @@ export default {};
 .introduction {
   background-color: transparent;
   position: relative;
+ height: 600px;
 }
 .row {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 .title_solgan {
-  font-size: 10vw;
+  font-size: 200px;
   color: white;
   letter-spacing: 20px;
 }
 .solgan {
   color: white;
   background-color: #fac0ce;
-  font-size: 2vw;
+  font-size: 40px;
   display: inline-block;
   letter-spacing: 2px;
 }
 .header_top {
-  height: 100px;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .header_center {
-  height: 200px;
+  height: 90%;
   display: flex;
   align-items: center;
 }
 header {
   background: url("../assets/rabbiz/background_header.png") center;
   background-size: cover;
-  height: 830px;
+  height: 100vh;
 }
 .menu li {
-  list-style: none;
-  float: left;
-  padding: 35px;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  transition: 0.75s;
+    list-style: none;
+    float: left;
+    padding: 21px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.75s;
 }
 .menu li:hover {
   color: #cce8ff;
@@ -698,17 +463,24 @@ header {
   width: 70%;
   object-fit: cover;
 }
+.logo {
+  height: 100%;
+}
 .logo img {
   float: left;
+  width: 24%;
   font-size: 80px;
-  padding: 10px 90px;
-  margin-left: -15px;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.div_menu {
+  height: 100%;
 }
 
 .title_text {
   color: #ff7a9d;
   font-weight: 600;
-  font-size: 3vw;
+  font-size: 50px;
 }
 .all {
   background-image: url("../assets/rabbiz/background.png");
