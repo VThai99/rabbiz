@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './assets/css/style.css'
 import './assets/css/giaodien.css'
 import jquery from 'jquery';
+import '@fortawesome/fontawesome-free/css/all.css'
 Vue.config.productionTip = false
 Vue.prototype.jquery = jquery
 new Vue({

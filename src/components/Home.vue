@@ -1,78 +1,68 @@
 <template>
   <div class="all">
-    <div class="contain">
-      <header>
-      <div class="row header_top">
-        <div class="logo col-5">
-          <img src="../assets/rabbiz/logo.png" alt="" />
-        </div>
-        <div class="div_menu col-7">
-          <!-- <ul class="menu">
-            <li>HOME</li>
-            <li>RABBIZ FARM</li>
-            <li>TRADE</li>
-            <li>SHOT BALL</li>
-            <li>DASHBOARD</li>
-          </ul> -->
-          <nav class="navbar">
-            <div class="push-left">
-              <button
-                id="menu-toggler"
-                data-class="menu-active"
-                class="hamburger"
-              >
-                <span class="hamburger-line hamburger-line-top"></span>
-                <span class="hamburger-line hamburger-line-middle"></span>
-                <span class="hamburger-line hamburger-line-bottom"></span>
-              </button>
+    <header>
+      <div class="contain">
+        <div class="row header_top">
+          <div class="logo col-5">
+            <img src="../assets/rabbiz/logo.png" alt="" />
+          </div>
+          <div class="div_menu col-7">
+            <nav class="navbar">
+              <div class="push-left">
+                <button
+                  id="menu-toggler"
+                  data-class="menu-active"
+                  class="hamburger"
+                >
+                  <span class="hamburger-line hamburger-line-top"></span>
+                  <span class="hamburger-line hamburger-line-middle"></span>
+                  <span class="hamburger-line hamburger-line-bottom"></span>
+                </button>
 
-              <!--  Menu compatible with wp_nav_menu  -->
-              <ul id="primary-menu" class="menu nav-menu">
-                <li class="menu-item current-menu-item">
-                  <a class="nav__link" href="#">Home</a>
-                </li>
-                <li class="menu-item">
-                  <a class="nav__link" href="#">RABBIZ FARM</a>
-                </li>
-                <li class="menu-item">
-                  <a class="nav__link" href="#">TRADE</a>
-                </li>
-                <li class="menu-item">
-                  <a class="nav__link" href="#">SHOT BALL</a>
-                </li>
-                <li class="menu-item">
-                  <a class="nav__link" href="#">DASHBOARD</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+                <!--  Menu compatible with wp_nav_menu  -->
+                <ul id="primary-menu" class="menu nav-menu">
+                  <li class="menu-item current-menu-item">
+                    <a class="nav__link" href="#">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="nav__link" href="#">RABBIZ FARM</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="nav__link" href="#">TRADE</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="nav__link" href="#">SHOT BALL</a>
+                  </li>
+                  <li class="menu-item">
+                    <a class="nav__link" href="#">DASHBOARD</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
-      </div>
-      <div class="row header_center">
-        <div class="col-6">
-          <h1 class="title_solgan">Rabbiz</h1>
-          <p class="solgan">A leading Yield Farming from China</p>
-        </div>
-        <div class="col-6">
-          <img id="img_header" src="../assets/rabbiz/img_header.png" alt="" />
+        <div class="row header_center">
+          <div class="col-6">
+            <h1 class="title_solgan">Rabbiz</h1>
+            <p class="solgan">A leading Yield Farming from China</p>
+          </div>
+          <div class="col-6">
+            <img id="img_header" src="../assets/rabbiz/img_header.png" alt="" />
+          </div>
         </div>
       </div>
     </header>
-    </div>
-    
 
     <div class="introduction">
-     
-      <div class="contain">
-        <div class="title"><i class="title_text">INTRODUCTION</i></div>
-        <div class="row troduction_content">
-          <div class="col-lg-6 ">
-             <img
+      <img
         id="introduction_img"
         src="../assets/rabbiz/introduction_img.png"
         alt=""
       />
-          </div>
+      <div class="contain">
+        <div class="title"><i class="title_text">INTRODUCTION</i></div>
+        <div class="row troduction_content">
+          <div class="col-lg-6"></div>
           <div class="col-lg-6 introduction_left_text">
             <div class="introduction_textbox">
               <p class="introduction_text">
@@ -95,10 +85,6 @@
     </div>
 
     <div class="vision_mission">
-      <!-- <div>
-           <img src="../assets/rabbiz/vision_mission1.png" alt="">
-         </div> -->
-
       <div class="contain">
         <div class="content">
           <span id="vision_mission_text1">
@@ -198,6 +184,299 @@
       <I>TOKEN RABBIZ</I>
     </div>
     <!-- quan -->
+    <div class="contain">
+      <div class="row banner_product">
+        <div class="col-6 banner_product_left">
+          <img src="../assets/rabbiz/Group110.jpg" alt="" />
+        </div>
+        <div class="col-6 banner_product_right">
+          <ul>
+            <li>
+              <span class="cha"><span class="con"></span></span>Token RABBIZ
+              denoted as RBIZ.
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span>Platform:
+              Tron(Trx).
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span>Algorithm:
+              Trc20.
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span>Total
+              supply:20,000,000 (Rbiz).
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span>Starting priec:
+              $USD 0.1.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer_product">
+      <div class="title_product">
+        <i>PRODUCTS</i>
+      </div>
+    </div>
+    <div class="contain hiuhiu">
+      <div class="row banner_roadmap">
+        <div class="col-3 box-in4">
+          <img src="../assets/rabbiz/Group98.png" alt="" />
+          <h3>Airdrop program</h3>
+        </div>
+        <div class="col-3 box-in4">
+          <img src="../assets/rabbiz/Group99.png" alt="" />
+          <h3>TRADE <br />(coming soon)</h3>
+        </div>
+        <div class="col-3 box-in4">
+          <img src="../assets/rabbiz/Group101.png" alt="" />
+          <h3>
+            Rabbiz farm <br />
+            (coming soon)
+          </h3>
+        </div>
+        <div class="col-3 box-in4">
+          <img src="../assets/rabbiz/Group100.png" alt="" />
+          <h3>
+            Rabbiz Game <br />
+            (coming soon)
+          </h3>
+        </div>
+      </div>
+      <div class="row banner_roadmapmobile">
+        <div class="col-6 box-in4">
+          <img src="../assets/rabbiz/Group98.png" alt="" />
+          <h3>Airdrop program</h3>
+        </div>
+        <div class="col-6 box-in4">
+          <img src="../assets/rabbiz/Group99.png" alt="" />
+          <h3>TRADE <br />(coming soon)</h3>
+        </div>
+      </div>
+      <div class="row banner_roadmapmobile">
+        <div class="col-6 box-in4">
+          <img src="../assets/rabbiz/Group101.png" alt="" />
+          <h3>
+            Rabbiz farm <br />
+            (coming soon)
+          </h3>
+        </div>
+        <div class="col-6 box-in4">
+          <img src="../assets/rabbiz/Group100.png" alt="" />
+          <h3>
+            Rabbiz Game <br />
+            (coming soon)
+          </h3>
+        </div>
+      </div>
+
+      <div class="row farm_game">
+        <div class="col-6 card_rabbiz">
+          <div class="Rabbiz_farm">
+            <div class="title_farm">
+              <h4>Rabbiz Farm</h4>
+            </div>
+            <div class="underlined"></div>
+            <div class="text_farm">
+              <p>
+                A high yield farming provider available from the DeFi protocols;
+                optimizes the yields that are received using the latest
+                blockchain techniques.
+              </p>
+            </div>
+            <div class="but_farm">
+              <button type="button " class="btn btn-secondary">
+                COMING SOON
+              </button>
+            </div>
+            <img src="../assets/rabbiz/Layer116.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-6 card_rabbiz">
+          <div class="Rabbiz_farm">
+            <div class="title_farm">
+              <h4>Rabbiz Game</h4>
+            </div>
+            <div class="underlined"></div>
+            <div class="text_farm">
+              <p>
+                Shooting Ball is an attractive and interesting game.Complete the
+                games for earn the token reward.
+              </p>
+            </div>
+            <div class="but_farm1">
+              <button type="button " class="btn btn-secondary">
+                COMING SOON
+              </button>
+            </div>
+            <img src="../assets/rabbiz/Layer116.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="row farm_gamemobile">
+        <div class="col-12 Rabbiz_farm">
+          <div class="title_farm">
+            <h4>Rabbiz Farm</h4>
+          </div>
+          <div class="underlined"></div>
+          <div class="text_farm">
+            <p>
+              A high yield farming provider available from the DeFi protocols;
+              optimizes the yields that are received using the latest blockchain
+              techniques.
+            </p>
+          </div>
+          <div class="but_farm">
+            <button type="button " class="btn btn-secondary">
+              COMING SOON
+            </button>
+          </div>
+          <img src="../assets/rabbiz/Layer116.png" alt=" " />
+        </div>
+      </div>
+      <div class="row farm_gamemobile">
+        <div class="col-12 Rabbiz_farm">
+          <div class="title_farm">
+            <h4>Rabbiz Game</h4>
+          </div>
+          <div class="underlined"></div>
+          <div class="text_farm">
+            <p>
+              Shooting Ball is an attractive and interesting game.Complete the
+              games for earn the token reward.
+            </p>
+          </div>
+          <div class="but_farm1">
+            <button type="button " class="btn btn-secondary">
+              COMING SOON
+            </button>
+          </div>
+          <img src="../assets/rabbiz/Layer116.png" alt="" />
+        </div>
+      </div>
+      <div class="row rabbiz_token">
+        <div class="col-5">
+          <div class="button_rabiz_token">
+            <button type="button " class="btn btn_rabbiz_token">
+              RABBIZ TOKEN
+            </button>
+          </div>
+          <div class="button_buy_token">
+            <button type="button " class="btn btn-danger btn_buy_token">
+              BUY TOKEN
+            </button>
+          </div>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5 more_in4">
+          <ul>
+            <li>
+              <span class="cha"><span class="con"></span></span>TRC token with
+              best trnsaction fee
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span>Will be traded
+              in Vindax, Cointiger, Binance
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span>Algorithm:
+              Trc20.
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span> Attractive
+              bonus
+            </li>
+            <li>
+              <span class="cha"><span class="con"></span></span>Supreme agent
+              policy
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main_roadmap">
+      <div class="footer_product">
+        <div class="title_product">
+          <i>ROADMAP</i>
+        </div>
+      </div>
+    </div>
+    <div class="banner_main_roadmap">
+      <div class="contain">
+        <img src="../assets/rabbiz/Group 107.png" alt="" />
+        <div class="container">
+          <div class="row category_roadmap">
+            <div class="col-3 rabbiz_green">
+              <div class="cover_green">
+                <div class="child_green">
+                  <div class="green_top">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <div class="green_button">
+                    <h5>Start of Airdrop Rbiz 01/03/2021</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+            <div class="col-3 rabbiz_blue">
+              <div class="cover_green1">
+                <div class="child_green1">
+                  <div class="green_top1">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <div class="green_button1">
+                    <h5>RBIZ be listed on Vindax on March 2021-April 2021</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location1">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+            <div class="col-3 rabbiz_pink">
+              <div class="cover_green2">
+                <div class="child_green2">
+                  <div class="green_top2">
+                    <i class="far fa-lightbulb"></i>
+                  </div>
+                  <div class="green_button2">
+                    <h5>RRBIZ be listed on Conintiger in June 2021-7/2021</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location2">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+            <div class="col-3 rabbiz_orange">
+              <div class="cover_green3">
+                <div class="child_green3">
+                  <div class="green_top3">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="green_button3">
+                    <h5>
+                      RBIZ be listed on Binance exchange in November
+                      08/2021-12/2021
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="location3">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -219,17 +498,14 @@ export default {};
 </script>
 <style>
 .contain {
-    width: 1900px;
-    margin: 0 auto;
+  width: 1900px;
+  margin: 0 auto;
 }
 
 * {
   margin: 0;
   padding: 0;
 }
-/* .navbar{
-  display: none !important;
-} */
 .advantage {
   padding: 2vw 0px;
 }
@@ -239,11 +515,11 @@ export default {};
   align-items: center;
 }
 .list_advantages li {
-    list-style: none;
-    padding: 18px 0px;
-    text-align: left;
-    font-weight: 800;
-    font-size: 24px;
+  list-style: none;
+  padding: 18px 0px;
+  text-align: left;
+  font-weight: 800;
+  font-size: 24px;
 }
 .cha {
   background-color: white;
@@ -278,10 +554,10 @@ export default {};
   align-items: center;
 }
 .advantages_title i {
-    color: white;
-    font-weight: 600;
-    font-size: 50px;
-    padding: 21px 0px;
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  padding: 21px 0px;
 }
 .vision_mission2 {
   display: none;
@@ -347,7 +623,7 @@ export default {};
   width: 30%;
 }
 .vision_mission {
-  padding: 120px 0px;
+  padding: 160px 0px 50px 0px;
 }
 .vision_mission_tittle {
   background-color: #ff7a9d;
@@ -356,23 +632,23 @@ export default {};
   bottom: -100px;
 }
 .vision_mission_tittle p {
-    color: white;
-    font-weight: 600;
-    font-size: 50px;
-    padding: 12px 0px;
-    font-style: italic;
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  padding: 12px 0px;
+  font-style: italic;
 }
 .introduction img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 675px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 675px;
 }
 .introduction_text {
-    line-height: 57px;
-    font-size: 26px;
-    text-align: left;
-    margin: 15px 0px 0px 20px;
+  line-height: 57px;
+  font-size: 26px;
+  text-align: left;
+  margin: 15px 0px 0px 20px;
 }
 .introduction_textbox {
   border: 1px solid black;
@@ -392,24 +668,20 @@ export default {};
   padding-right: 0px !important;
 }
 .title {
-    background-color: transparent;
-    position: absolute;
-    z-index: 2;
-    top: 2%;
-    left: 0;
-    width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 2;
+  top: 2%;
+  left: 0;
+  width: 100%;
 }
-/* .title_text {
-  font-weight: 800 !important;
-  font-size: 70px !important;
-} */
 .troduction_content {
   display: none;
 }
 .introduction {
   background-color: transparent;
   position: relative;
- height: 600px;
+  height: 600px;
 }
 .row {
   margin-left: 0px !important;
@@ -441,16 +713,16 @@ export default {};
 header {
   background: url("../assets/rabbiz/background_header.png") center;
   background-size: cover;
-  height: 100vh;
+  height: 800px;
 }
 .menu li {
-    list-style: none;
-    float: left;
-    padding: 21px;
-    color: white;
-    font-size: 25px;
-    cursor: pointer;
-    transition: 0.75s;
+  list-style: none;
+  float: left;
+  padding: 21px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.75s;
 }
 .menu li:hover {
   color: #cce8ff;
@@ -483,6 +755,8 @@ header {
   font-size: 50px;
 }
 .all {
-  background-image: url("../assets/rabbiz/background.png");
+  background: url("../assets/rabbiz/background.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>

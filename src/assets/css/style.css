@@ -1,3 +1,4 @@
+
 @media(max-width: 1900px){
   .contain{
     width: auto;
@@ -80,6 +81,10 @@
 
 }
 @media(max-width: 1024px){
+  header
+  {
+    height: 595px;
+  }
   #introduction_img {
     width: 100%;
     opacity: 0.2;
@@ -115,8 +120,11 @@
   }
 }
 @media(max-width: 768px) {
+  header{
+    height: 475px;
+  }
   .hamburger{
-    top: 3rem;
+    top: 2rem;
   }
   .advantages_title {
     height: 12vw;
@@ -163,7 +171,7 @@
     margin-top: 0%;
     margin-left: 0;
     width: 47%;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
   .solgan {
     color: white;
@@ -222,7 +230,7 @@
   display: flex;
   flex-direction: row;
   font-family: sans-serif;
-  padding: 25px 50px;
+  
 }
 
 .push-left {
@@ -383,7 +391,7 @@
   float: left;
   margin-left: 0;
   width: 18vw;
-  margin-top: 27px;
+  margin-top: 3rem;
   padding: 0;
 }
 .navbar{
@@ -423,12 +431,11 @@ header {
 
 /* iphonex */
 @media(max-width: 375px){
-  .logo img {
-    float: left;
-    margin-left: 0;
-    width: 18vw;
-    margin-top: 27px;
-    padding: 0;
+  #introduction_img {
+   height: auto;
+}
+  .introduction {
+    height: 346px;
 }
 .navbar{
   padding: 0px;
@@ -440,7 +447,8 @@ header {
   font-size: 100%;
 }
 header {
-  height: 300px;
+  height: 230px;
+
 }
 .introduction_text {
   line-height: 7vw;
@@ -452,7 +460,7 @@ header {
   margin-bottom: 0;
 }
 .introduction_left_text {
-  top: 18%;
+  top: -16%;
 }
 .list_vision_mission li {
   font-size: 12px;
@@ -466,7 +474,5 @@ header {
 }
 @media (max-width: 320px)
 {
-.logo img {
-    margin-top: 26px;
-}
+
 }
