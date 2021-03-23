@@ -1,9 +1,10 @@
-.card_rabbiz{
- display: flex;
- justify-content: center;
- align-items: center;
+.card_rabbiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.btn_rabbiz_token{
+
+.btn_rabbiz_token {
     border-radius: 12px;
     background: transparent !important;
     color: #ff7a9d;
@@ -11,549 +12,810 @@
     letter-spacing: 5px;
     font-weight: 600;
 }
-.btn_buy_token{
+
+.more_in4 ul {
+    text-align: left;
+    margin-top: -3%;
+}
+
+.btn_buy_token {
     background: #ff7a9d;
     border-radius: 10px;
 }
-.div_roadmap{
+
+.div_roadmap {
     position: relative;
 }
-    .but_farm1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .responsivemobile {
-        width: 1349px;
-        margin: 0 auto;
-    }
-    .but_farm button{
-        border-radius: 10px;
-        margin-top: 50px;
-        background-color: #ff7a9d;
-        padding: 10px 38px;
-    }
-    .but_farm1 button {
-        border-radius: 10px;
-        margin-top: 50px;
-        background-color: #ff7a9d;
-        padding: 10px 38px;
-    }
-    
-    .banner_roadmapmobile {
-        display: none;
-    }
-    
-    .farm_gamemobile {
-        display: none;
-    }
-  
-    .box-in4 img {
-        width: 90%;
-        position: relative;
-    }
-    
+
+.but_farm1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsivemobile {
+    width: 1349px;
+    margin: 0 auto;
+}
+
+.but_farm button {
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #ff7a9d;
+    padding: 10px 38px;
+}
+
+.but_farm1 button {
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #ff7a9d;
+    padding: 10px 38px;
+}
+
+.banner_roadmapmobile {
+    display: none;
+}
+
+.farm_gamemobile {
+    display: none;
+}
+
+.box-in4 img {
+    width: 90%;
+    position: relative;
+}
+
+.box-in4 h3 {
+    width: 260px !important;
+    position: absolute;
+    top: 31%;
+    left: 23%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Rabbiz_farm {
+    background-color: #3b3b3b;
+}
+
+.Rabbiz_farm img {
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+
+.banner_product {
+    background-image: url('../rabbiz/background.png');
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.banner_product_left {
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_product_left img {
+    width: 100%;
+}
+
+.banner_product_right {
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_product_right ul {
+    text-align: left;
+}
+
+.banner_product_right ul li {
+    list-style-type: none;
+    font-size: 32px;
+    padding: 10px 0px;
+}
+
+.cha {
+    background-color: white;
+    border: #ff7a9d solid 2px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.con {
+    background-color: #ff7a9d;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.banner_product_right ul li i {
+    background-color: #febece;
+}
+
+.footer_product {
+    background-color: #ff7a9d;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title_product {
+    padding: 21px 0px;
+}
+
+.footer_product i {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.number {
+    width: 100%;
+    height: 70px;
+    background-color: #e82c8b;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #e82c8b;
+}
+
+.cha2 {
+    background-color: #e82c8b;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha2 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+    position: relative;
+}
+
+.logo_roadmap {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #e82c8b;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.style_boder {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffc3c5, #ff9492, #ff6059, #ff1515);
+    position: absolute;
+    top: 110px;
+}
+
+.style_boder1 {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffb0ce, #f86dca, #c927dd, #4e00ff);
+    position: absolute;
+    top: 110px;
+}
+
+.style_boder2 {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffdcc3, #ffd974, #e3eb07, #0bff00);
+    position: absolute;
+    top: 110px;
+}
+
+.style_boder3 {
+    width: 80%;
+    height: 4px;
+    background-image: linear-gradient(to right, #fdf1f2, #ffd6d0, #ffbea0, #ffad64, #ffa600);
+    position: absolute;
+    top: 110px;
+}
+
+.logo_roadmap i {
+    font-size: 70px;
+    color: white;
+}
+
+.number1 {
+    width: 100%;
+    height: 70px;
+    background-color: #0b4ba5;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #0b4ba5;
+}
+
+.cha3 {
+    background-color: #0b4ba5;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha3 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    left: -0.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+}
+
+.logo_roadmap1 {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #0b4ba5;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.logo_roadmap1 i {
+    font-size: 70px;
+    color: white;
+}
+
+.number2 {
+    width: 100%;
+    height: 70px;
+    background-color: #69bc38;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #69bc38;
+}
+
+.cha4 {
+    background-color: #69bc38;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha4 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    position: relative;
+    left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+}
+
+.logo_roadmap2 {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #69bc38;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.logo_roadmap2 i {
+    font-size: 70px;
+    color: white;
+}
+
+.number3 {
+    width: 100%;
+    height: 70px;
+    background-color: #f7b103;
+    border-radius: 20px 20px 5px 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: teal;
+    align-items: center;
+    box-shadow: -1px 0px 0px 7px #f7b103;
+}
+
+.cha5 {
+    background-color: #f7b103;
+    border: white solid 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cha5 i {
+    font-size: 27px;
+    color: white;
+}
+
+.in4 {
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 10px 5px 5px #888888;
+    border-radius: 3px 3px 0 0;
+}
+
+.logo_roadmap3 {
+    width: 100%;
+    height: 110px;
+    position: relative;
+    background-color: #f7b103;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -2px 10px 5px 5px #888888;
+    border-radius: 0 0 7px 7px;
+}
+
+.logo_roadmap3 i {
+    font-size: 70px;
+    color: white;
+}
+
+.banner_roadmap {
+    margin-top: 50px;
+}
+
+.farm_game {
+    margin-top: 50px;
+    padding: 2vw;
+}
+
+.Rabbiz_farm {
+    width: 100%;
+    height: 340px;
+    background-color: #3b3b3b;
+    border-radius: 26px;
+    position: relative;
+}
+
+.Rabbiz_game {
+    width: 200px;
+    height: 200px;
+    background-color: #3b3b3b;
+}
+
+.title_farm {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_farm h4 {
+    color: #ff799d;
+}
+
+.underlined {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.text_farm {
+    text-align: center;
+}
+
+.text_farm p {
+    color: white;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.but_farm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.but_farm button {
+    background-color: #ff7a9d;
+}
+
+.rabbiz_token {
+    margin: 50px 0px;
+}
+
+.more_in4 ul {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.more_in4 ul li {
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: -60px;
+    font-weight: 800;
+}
+
+.button_rabiz_token {
+    width: 100%;
+    height: 100px;
+}
+
+.button_rabiz_token button {
+    float: right;
+    display: block;
+    padding: 25px;
+    background-color: #febece;
+    border: 2px #e82c8b solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_rabiz_token button h5 {
+    color: #e82c8b;
+}
+
+.button_buy_token {
+    width: 100%;
+    height: 40px;
+}
+
+.button_buy_token button {
+    margin-top: 20px;
+    padding: 10px 50px;
+    float: right;
+    display: block;
+}
+
+.footer_roadmap {
+    background-color: #ff7a9d;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_main_roadmap img {
+    width: 100%;
+    margin-top: 300px;
+    position: relative;
+}
+
+.rabbiz_green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover_green {
+    width: 210px;
+    height: 275px;
+    border-radius: 28px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -320%;
+}
+
+.child_green {
+    width: 200px;
+    height: 265px;
+    border: 5px #5ba618 solid;
+    border-radius: 28px;
+}
+
+.green_top {
+    width: 192px;
+    height: 30%;
+    background-color: #5ba618;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green_button {
+    height: 70%;
+}
+
+.green_top i {
+    color: white;
+    font-size: 55px;
+}
+
+.green_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_button h5 {
+    font-weight: 600;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location i {
+    margin-top: -190%;
+    position: absolute;
+    font-size: 61px;
+    color: #5ba618;
+}
+
+.location1 i {
+    margin-top: -310%;
+    position: absolute;
+    font-size: 61px;
+    color: #2d9bbc;
+    margin-left: -11%;
+}
+
+.location2 i {
+    margin-top: -192%;
+    position: absolute;
+    color: #d1228b;
+    font-size: 61px;
+    margin-left: -12%;
+}
+
+.location3 i {
+    margin-top: -317%;
+    position: absolute;
+    font-size: 61px;
+    margin-left: 10%;
+    color: #fe8627;
+}
+
+.cover_green1 {
+    width: 210px;
+    height: 275px;
+    border-radius: 28px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -409%;
+}
+
+.child_green1 {
+    width: 200px;
+    height: 265px;
+    border: 5px #2d9bbc solid;
+    border-radius: 28px;
+}
+
+.green_top1 {
+    width: 192px;
+    height: 30%;
+    background-color: #2d9bbc;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green_button1 {
+    height: 70%;
+}
+
+.green_top1 i {
+    color: white;
+    font-size: 55px;
+}
+
+.green_button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_button1 h5 {
+    font-weight: 600;
+}
+
+.cover_green2 {
+    width: 210px;
+    height: 275px;
+    border-radius: 28px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -295%;
+}
+
+.child_green2 {
+    width: 200px;
+    height: 265px;
+    border: 5px #d1228b solid;
+    border-radius: 28px;
+}
+
+.green_top2 {
+    width: 192px;
+    height: 30%;
+    background-color: #d1228b;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green_button2 {
+    height: 70%;
+}
+
+.green_top2 i {
+    color: white;
+    font-size: 55px;
+}
+
+.green_button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_button2 h5 {
+    font-weight: 600;
+}
+
+.cover_green3 {
+    width: 210px;
+    height: 275px;
+    border-radius: 28px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -412%;
+    right: 0;
+}
+
+.child_green3 {
+    width: 200px;
+    height: 265px;
+    border: 5px #fe8627 solid;
+    border-radius: 28px;
+}
+
+.green_top3 {
+    width: 192px;
+    height: 30%;
+    background-color: #fe8627;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green_button3 {
+    height: 70%;
+}
+
+.green_top3 i {
+    color: white;
+    font-size: 55px;
+}
+
+.green_button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green_button3 h5 {
+    font-weight: 600;
+}
+
+@media (max-width:1440px) {
     .box-in4 h3 {
         width: 260px !important;
         position: absolute;
         top: 31%;
-        left: 23%;
+        left: 12%;
         text-align: center;
         font-weight: 600;
     }
-    
-    .Rabbiz_farm {
-        background-color: #3b3b3b;
-    }
-    
-    .Rabbiz_farm img {
-        position: absolute;
-        top: 0%;
-        right: 0;
-    }
-    
-    .banner_product {
-        background-image: url('../rabbiz/background.png');
-        width: 100%;
-        padding: 20px 0px;
-    }
-    
-    .banner_product_left {
-        width: 50%;
-        float: left;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .banner_product_left img {
-        width: 100%;
-    }
-    
-    .banner_product_right {
-        width: 50%;
-        float: left;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .banner_product_right ul {
-        text-align: left;
-    }
-    
-    .banner_product_right ul li {
-        list-style-type: none;
-        font-size: 32px;
-        padding: 10px 0px;
-    }
-    
-    .cha {
-        background-color: white;
-        border: #ff7a9d solid 2px;
-        height: 25px;
-        width: 25px;
-        border-radius: 50%;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 10px;
-    }
-    
-    .con {
-        background-color: #ff7a9d;
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-        display: inline-block;
-    }
-    
-    .banner_product_right ul li i {
-        background-color: #febece;
-    }
-    
-    .footer_product {
-        background-color: #ff7a9d;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .title_product{
-        padding: 21px 0px;
-    }
-    .footer_product i {
-        color: white;
-        font-size: 50px;
-        font-weight: 600;
-    }
-    
-    .number {
-        width: 100%;
-        height: 70px;
-        background-color: #e82c8b;
-        border-radius: 20px 20px 5px 5px;
-        display: flex;
-        justify-content: center;
-        box-shadow: teal;
-        align-items: center;
-        box-shadow: -1px 0px 0px 7px #e82c8b;
-    }
-    
-    .cha2 {
-        background-color: #e82c8b;
-        border: white solid 1px;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-    }
-    
-    .cha2 i {
-        font-size: 27px;
-        color: white;
-    }
-    
-    .in4 {
-        width: 100%;
-        height: 140px;
-        background-color: white;
-        position: relative;
-        left: 1px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: -1px 10px 5px 5px #888888;
-        position: relative;
-    }
-    
-    .logo_roadmap {
-        width: 100%;
-        height: 110px;
-        position: relative;
-        background-color: #e82c8b;
-        left: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: -2px 10px 5px 5px #888888;
-        border-radius: 0 0 7px 7px;
-    }
-    
-    .style_boder {
-        width: 80%;
-        height: 4px;
-        background-image: linear-gradient(to right, #fdf1f2, #ffc3c5, #ff9492, #ff6059, #ff1515);
-        position: absolute;
-        top: 110px;
-    }
-    
-    .style_boder1 {
-        width: 80%;
-        height: 4px;
-        background-image: linear-gradient(to right, #fdf1f2, #ffb0ce, #f86dca, #c927dd, #4e00ff);
-        position: absolute;
-        top: 110px;
-    }
-    
-    .style_boder2 {
-        width: 80%;
-        height: 4px;
-        background-image: linear-gradient(to right, #fdf1f2, #ffdcc3, #ffd974, #e3eb07, #0bff00);
-        position: absolute;
-        top: 110px;
-    }
-    
-    .style_boder3 {
-        width: 80%;
-        height: 4px;
-        background-image: linear-gradient(to right, #fdf1f2, #ffd6d0, #ffbea0, #ffad64, #ffa600);
-        position: absolute;
-        top: 110px;
-    }
-    
-    .logo_roadmap i {
-        font-size: 70px;
-        color: white;
-    }
-    
-    .number1 {
-        width: 100%;
-        height: 70px;
-        background-color: #0b4ba5;
-        border-radius: 20px 20px 5px 5px;
-        display: flex;
-        justify-content: center;
-        box-shadow: teal;
-        align-items: center;
-        box-shadow: -1px 0px 0px 7px #0b4ba5;
-    }
-    
-    .cha3 {
-        background-color: #0b4ba5;
-        border: white solid 1px;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-    }
-    
-    .cha3 i {
-        font-size: 27px;
-        color: white;
-    }
-    
-    .in4 {
-        width: 100%;
-        height: 140px;
-        background-color: white;
-        position: relative;
-        left: -0.8px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: -1px 10px 5px 5px #888888;
-    }
-    
-    .logo_roadmap1 {
-        width: 100%;
-        height: 110px;
-        position: relative;
-        background-color: #0b4ba5;
-        left: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: -2px 10px 5px 5px #888888;
-        border-radius: 0 0 7px 7px;
-    }
-    
-    .logo_roadmap1 i {
-        font-size: 70px;
-        color: white;
-    }
-    
-    .number2 {
-        width: 100%;
-        height: 70px;
-        background-color: #69bc38;
-        border-radius: 20px 20px 5px 5px;
-        display: flex;
-        justify-content: center;
-        box-shadow: teal;
-        align-items: center;
-        box-shadow: -1px 0px 0px 7px #69bc38;
-    }
-    
-    .cha4 {
-        background-color: #69bc38;
-        border: white solid 1px;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-    }
-    
-    .cha4 i {
-        font-size: 27px;
-        color: white;
-    }
-    
-    .in4 {
-        width: 100%;
-        height: 140px;
-        background-color: white;
-        position: relative;
-        left: 1px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: -1px 10px 5px 5px #888888;
-    }
-    
-    .logo_roadmap2 {
-        width: 100%;
-        height: 110px;
-        position: relative;
-        background-color: #69bc38;
-        left: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: -2px 10px 5px 5px #888888;
-        border-radius: 0 0 7px 7px;
-    }
-    
-    .logo_roadmap2 i {
-        font-size: 70px;
-        color: white;
-    }
-    
-    .number3 {
-        width: 100%;
-        height: 70px;
-        background-color: #f7b103;
-        border-radius: 20px 20px 5px 5px;
-        display: flex;
-        justify-content: center;
-        box-shadow: teal;
-        align-items: center;
-        box-shadow: -1px 0px 0px 7px #f7b103;
-    }
-    
-    .cha5 {
-        background-color: #f7b103;
-        border: white solid 1px;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-    }
-    
-    .cha5 i {
-        font-size: 27px;
-        color: white;
-    }
-    
-    .in4 {
-        width: 100%;
-        height: 160px;
-        background-color: white;
-        position: relative;
-        left: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: -1px 10px 5px 5px #888888;
-        border-radius: 3px 3px 0 0;
-    }
-    
-    .logo_roadmap3 {
-        width: 100%;
-        height: 110px;
-        position: relative;
-        background-color: #f7b103;
-        left: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: -2px 10px 5px 5px #888888;
-        border-radius: 0 0 7px 7px;
-    }
-    
-    .logo_roadmap3 i {
-        font-size: 70px;
-        color: white;
-    }
-    
-    .banner_roadmap {
-        margin-top: 50px;
-    }
-    
-    .farm_game {
-        margin-top: 50px;
-        padding: 2vw;
-    }
-    
-    .Rabbiz_farm {
-        width: 100%;
-        height: 340px;
-        background-color: #3b3b3b;
-        border-radius: 26px;
-        position: relative;
-    }
-    
-    .Rabbiz_game {
-        width: 200px;
-        height: 200px;
-        background-color: #3b3b3b;
-    }
-    
-    .title_farm {
-        height: 70px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .title_farm h4 {
-        color: #ff799d;
-    }
-    
-    .underlined {
-        width: 100%;
-        height: 2px;
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        margin-top: 13px;
-    }
-    
-    .text_farm {
-        text-align: center;
-    }
-    
-    .text_farm p {
-        color: white;
-        margin: 20px;
-        font-size: 22px;
-    }
-    
-    .but_farm {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-    }
-    
     .but_farm button {
-        background-color: #ff7a9d;
-    }
-    
-    .rabbiz_token {
-        margin: 50px 0px;
-    }
-    
-    .more_in4 ul {
-        text-align: left;
-        margin-left: 10%;
-    }
-    
-    .more_in4 ul li {
-        list-style-type: none;
+        border-radius: 10px;
         margin-top: 15px;
-        margin-left: -40px;
-        font-weight: 800;
-    }
-    
-    .button_rabiz_token {
-        width: 100%;
-        height: 100px;
-    }
-    
-    .button_rabiz_token button {
-        float: right;
-        display: block;
-        padding: 25px;
-        background-color: #febece;
-        border: 2px #e82c8b solid;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .button_rabiz_token button h5 {
-        color: #e82c8b;
-    }
-    
-    .button_buy_token {
-        width: 100%;
-        height: 40px;
-    }
-    
-    .button_buy_token button {
-        margin-top: 20px;
-        padding: 10px 50px;
-        float: right;
-        display: block;
-    }
-    
-    .footer_roadmap {
         background-color: #ff7a9d;
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 10px 38px;
     }
-    
-    
-    
-    .banner_main_roadmap img {
-        width: 100%;
-        margin-top: 300px;
-        position: relative;
+    .location i {
+        margin-top: -139%;
+        position: absolute;
+        font-size: 61px;
+        color: #5ba618;
     }
-    
-    .rabbiz_green {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
     .cover_green {
         width: 210px;
         height: 275px;
@@ -563,81 +825,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -320%;
+        margin-top: -263%;
     }
-    
-    .child_green {
-        width: 200px;
-        height: 265px;
-        border: 5px #5ba618 solid;
-        border-radius: 28px;
-    }
-    
-    .green_top {
-        width: 192px;
-        height: 30%;
-        background-color: #5ba618;
-        border-radius: 17px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .green_button {
-        height: 70%;
-    }
-    
-    .green_top i {
-        color: white;
-        font-size: 55px;
-    }
-    
-    .green_button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .green_button h5 {
-        font-weight: 600;
-    }
-    
-    .location {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .location i {
-        margin-top: -190%;
-        position: absolute;
-        font-size: 61px;
-        color: #5ba618;
-    }
-    
-    .location1 i {
-        margin-top: -310%;
-        position: absolute;
-        font-size: 61px;
-        color: #2d9bbc;
-        margin-left: -11%;
-    }
-    .location2 i {
-        margin-top: -192%;
-        position: absolute;
-        color: #d1228b;
-        font-size: 61px;
-        margin-left: -12%;
-    }
-    
-    .location3 i {
-        margin-top: -317%;
-        position: absolute;
-        font-size: 61px;
-        margin-left: 10%;
-        color: #fe8627;
-    }
-    
     .cover_green1 {
         width: 210px;
         height: 275px;
@@ -647,45 +836,22 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -409%;
+        margin-top: -330%;
     }
-    
-    .child_green1 {
-        width: 200px;
-        height: 265px;
-        border: 5px #2d9bbc solid;
-        border-radius: 28px;
+    .location1 i {
+        margin-top: -230%;
+        position: absolute;
+        font-size: 61px;
+        color: #2d9bbc;
+        margin-left: -15%;
     }
-    
-    .green_top1 {
-        width: 192px;
-        height: 30%;
-        background-color: #2d9bbc;
-        border-radius: 17px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .location2 i {
+        margin-top: -141%;
+        position: absolute;
+        color: #d1228b;
+        font-size: 61px;
+        margin-left: -15%;
     }
-    
-    .green_button1 {
-        height: 70%;
-    }
-    
-    .green_top1 i {
-        color: white;
-        font-size: 55px;
-    }
-    
-    .green_button1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .green_button1 h5 {
-        font-weight: 600;
-    }
-    
     .cover_green2 {
         width: 210px;
         height: 275px;
@@ -695,45 +861,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -295%;
+        margin-top: -242%;
     }
-    
-    .child_green2 {
-        width: 200px;
-        height: 265px;
-        border: 5px #d1228b solid;
-        border-radius: 28px;
-    }
-    
-    .green_top2 {
-        width: 192px;
-        height: 30%;
-        background-color: #d1228b;
-        border-radius: 17px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .green_button2 {
-        height: 70%;
-    }
-    
-    .green_top2 i {
-        color: white;
-        font-size: 55px;
-    }
-    
-    .green_button2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .green_button2 h5 {
-        font-weight: 600;
-    }
-    
     .cover_green3 {
         width: 210px;
         height: 275px;
@@ -743,19 +872,338 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -412%;
+        margin-top: -329%;
         right: 0;
     }
-    
+    .location3 i {
+        margin-top: -231%;
+        position: absolute;
+        font-size: 61px;
+        margin-left: 3%;
+        color: #fe8627;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover_green1 {
+        margin-top: -320%;
+    }
+    .cover_green {
+        margin-top: -250%;
+    }
+    .cover_green3 {
+        margin-top: -325%;
+    }
+    .cover_green2 {
+        margin-top: -238%;
+    }
+    .but_farm button {
+        margin-top: 0;
+    }
+    .text_farm p {
+        color: white;
+        margin: 35px;
+        font-size: 18px;
+    }
+    .responsivemobile {
+        width: auto;
+        margin: 0 auto;
+    }
+    .box-in4 img {
+        width: 223px !important;
+        position: relative;
+    }
+    .but_farm1 button {
+        margin-top: 0;
+        background-color: #ff7a9d;
+    }
+    .box-in4 h3 {
+        width: 168px !important;
+        position: absolute;
+        top: 30%;
+        left: 17%;
+        text-align: center;
+        font-size: 21px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        right: 0;
+    }
+    .Rabbiz_farm {
+        background-color: #3b3b3b;
+        width: 100%;
+    }
+    .location i {
+        margin-top: -110%;
+    }
+    .location1 i {
+        margin-top: -205%;
+        position: absolute;
+        font-size: 35px;
+        color: #2d9bbc;
+        margin-left: -5%;
+    }
+    .location2 i {
+        margin-top: -123%;
+        position: absolute;
+        color: #d1228b;
+        font-size: 35px;
+        margin-left: -4%;
+    }
+    .location3 i {
+        margin-top: -209%;
+        position: absolute;
+        font-size: 35px;
+        margin-left: -5%;
+        color: #fe8627;
+    }
+}
+
+@media(max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .responsivemobile {
+        width: auto;
+        margin: 0 auto;
+        margin-top: -10%;
+    }
+    .but_farm1 button {
+        margin-top: 0;
+        background-color: #ff7a9d;
+        font-size: 12px;
+    }
+    .banner_roadmapmobile {
+        display: none;
+    }
+    .footer_product i {
+        font-weight: 400;
+    }
+    .farm_gamemobile {
+        display: none;
+    }
+    .box-in4 img {
+        width: 151px !important;
+        position: relative;
+    }
+    .box-in4 h3 {
+        width: 180px !important;
+        position: absolute;
+        top: 31%;
+        left: 2%;
+        /* text-align: center; */
+        font-size: 13px;
+    }
+    .banner_product_left img {
+        width: 350px;
+        height: 350px;
+    }
+    .banner_product_right ul li {
+        list-style-type: none;
+        font-family: cursive;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 76%;
+        width: 72px !important;
+    }
+    .title_farm h4 {
+        font-size: 23px;
+    }
+    .title_farm {
+        height: 50px;
+    }
+    .text_farm p {
+        color: white;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .but_farm button {
+        font-size: 14px;
+    }
+    .more_in4 ul li {
+        margin-top: 4px;
+        font-size: 11px;
+    }
+    .button_buy_token button {
+        margin-top: -15px;
+    }
+    .button_rabiz_token button {
+        letter-spacing: 0;
+        padding: 5px;
+    }
+    .col-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        margin-top: -43px;
+    }
+    .Rabbiz_farm {
+        height: 195px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 76%;
+        width: 72px !important;
+    }
+    .text_farm p {
+        color: white;
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .but_farm button {
+        font-size: 12px;
+    }
+    .number,
+    .number1,
+    .number2,
+    .number3 {
+        height: 45px;
+    }
+    .in4 h3 {
+        font-size: 16px;
+    }
+    .in4 {
+        height: 95px;
+    }
+    .logo_roadmap,
+    .logo_roadmap1,
+    .logo_roadmap2,
+    .logo_roadmap3 {
+        height: 82px;
+    }
+    .style_boder,
+    .style_boder1,
+    .style_boder2,
+    .style_boder3 {
+        top: 72px;
+    }
+    .underlined {
+        margin-top: 0px;
+    }
+    .cover_green {
+        width: 144px;
+        height: 185px;
+        border-radius: 28px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -244%;
+    }
+    .child_green {
+        width: 133px;
+        height: 189px;
+        border: 5px #5ba618 solid;
+        border-radius: 28px;
+    }
+    .green_top {
+        width: 123px;
+        height: 30%;
+        background-color: #5ba618;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top i {
+        color: white;
+        font-size: 33px;
+    }
+    .green_button h5 {
+        font-size: 14px;
+    }
+    .cover_green1 {
+        width: 144px;
+        height: 185px;
+        border-radius: 28px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -313%;
+    }
+    .child_green1 {
+        width: 133px;
+        height: 189px;
+        border: 5px #2d9bbc solid;
+        border-radius: 28px;
+    }
+    .green_top1 {
+        width: 123px;
+        height: 30%;
+        background-color: #2d9bbc;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top1 i {
+        color: white;
+        font-size: 33px;
+    }
+    .green_button1 h5 {
+        font-size: 14px;
+    }
+    .cover_green2 {
+        width: 144px;
+        height: 185px;
+        border-radius: 28px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -232%;
+    }
+    .child_green2 {
+        width: 133px;
+        height: 189px;
+        border: 5px #d1228b solid;
+        border-radius: 28px;
+    }
+    .green_top2 {
+        width: 123px;
+        height: 30%;
+        background-color: #d1228b;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top2 i {
+        color: white;
+        font-size: 33px;
+    }
+    .green_button2 h5 {
+        font-size: 14px;
+    }
+    .cover_green3 {
+        width: 144px;
+        height: 185px;
+        border-radius: 28px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -318%;
+    }
     .child_green3 {
-        width: 200px;
-        height: 265px;
+        width: 133px;
+        height: 189px;
         border: 5px #fe8627 solid;
         border-radius: 28px;
     }
-    
     .green_top3 {
-        width: 192px;
+        width: 123px;
         height: 30%;
         background-color: #fe8627;
         border-radius: 17px;
@@ -763,954 +1211,662 @@
         align-items: center;
         justify-content: center;
     }
-    
-    .green_button3 {
-        height: 70%;
-    }
-    
     .green_top3 i {
         color: white;
-        font-size: 55px;
+        font-size: 33px;
     }
-    
-    .green_button3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
     .green_button3 h5 {
-        font-weight: 600;
+        font-size: 14px;
     }
-    
-    @media (max-width: 1024px) {
-        .cover_green1 {
-            margin-top: -320%;
-        }
-        .cover_green {
-            margin-top: -250%;
-        }
-        .cover_green3 {
-            margin-top: -325%;
-        }
-        .cover_green2 {
-            margin-top: -238%;
-        }
-        .but_farm button{
-            margin-top: 0;
-        }
-        .text_farm p {
-            color: white;
-            margin: 35px;
-            font-size: 18px;
-        }
-        .responsivemobile {
-            width: auto;
-            margin: 0 auto;
-        }
-        .box-in4 img {
-            width: 223px !important;
-            position: relative;
-        }
-        .but_farm1 button {
-            margin-top: 0;
-            background-color: #ff7a9d;
-        }
-        .box-in4 h3 {
-            width: 168px !important;
-            position: absolute;
-            top: 30%;
-            left: 17%;
-            text-align: center;
-            font-size: 21px;
-        }
-        .Rabbiz_farm img {
-            position: absolute;
-            top: 0%;
-            right: 0;
-        }
-        .Rabbiz_farm {
-            background-color: #3b3b3b;
-            width: 100%;
-        }
-        .location i {
-            margin-top: -110%;
-        }
-        .location1 i {
-            margin-top: -205%;
-            position: absolute;
-            font-size: 35px;
-            color: #2d9bbc;
-            margin-left: -5%;
-        }
-        .location2 i {
-            margin-top: -123%;
-            position: absolute;
-            color: #d1228b;
-            font-size: 35px;
-            margin-left: -4%;
-        }
-        .location3 i {
-            margin-top: -209%;
-            position: absolute;
-            font-size: 35px;
-            margin-left: -5%;
-            color: #fe8627;
-        }
+    .location3 i {
+        margin-left: 0%;
     }
-    
-    @media(max-width: 768px) {
-        body {
-            width: 100%;
-        }
-        .responsivemobile {
-            width: auto;
-            margin: 0 auto;
-            margin-top: -10%;
-        }
-        .but_farm1 button {
-            margin-top: 0;
-            background-color: #ff7a9d;
-            font-size: 12px;
-        }
-        .banner_roadmapmobile {
-            display: none;
-        }
-        .footer_product i {
-            font-weight: 400;
-        }
-        .farm_gamemobile {
-            display: none;
-        }
-        .box-in4 img {
-            width: 151px !important;
-            position: relative;
-        }
-        .box-in4 h3 {
-            width: 180px !important;
-            position: absolute;
-            top: 31%;
-            left: 2%;
-            /* text-align: center; */
-            font-size: 13px;
-        }
-        .banner_product_left img {
-            width: 350px;
-            height: 350px;
-        }
-        .banner_product_right ul li {
-            list-style-type: none;
-            font-family: cursive;
-            font-size: 14px;
-            margin-top: 4px;
-        }
-        .Rabbiz_farm img {
-            position: absolute;
-            top: 0%;
-            left: 76%;
-            width: 72px !important;
-        }
-        .title_farm h4 {
-            font-size: 23px;
-        }
-        .title_farm {
-            height: 50px;
-        }
-        .text_farm p {
-            color: white;
-            margin-top: 20px;
-            font-size: 12px;
-        }
-        .but_farm button {
-            font-size: 14px;
-        }
-        .more_in4 ul li {
-            margin-top: 4px;
-            font-size: 11px;
-        }
-        .button_buy_token button {
-            margin-top: -15px;
-        }
-        .button_rabiz_token button {
-            letter-spacing: 0;
-            padding: 5px;
-        }
-        .col-5 {
-            -ms-flex: 0 0 41.666667%;
-            flex: 0 0 41.666667%;
-            max-width: 41.666667%;
-            margin-top: -43px;
-        }
-        .Rabbiz_farm {
-            height: 195px;
-        }
-        .Rabbiz_farm img {
-            position: absolute;
-            top: 0%;
-            left: 76%;
-            width: 72px !important;
-        }
-        .text_farm p {
-            color: white;
-            margin-top: 8px;
-            font-size: 12px;
-        }
-        .but_farm button {
-            font-size: 12px;
-        }
-        .number,
-        .number1,
-        .number2,
-        .number3 {
-            height: 45px;
-        }
-        .in4 h3 {
-            font-size: 16px;
-        }
-        .in4 {
-            height: 95px;
-        }
-        .logo_roadmap,
-        .logo_roadmap1,
-        .logo_roadmap2,
-        .logo_roadmap3 {
-            height: 82px;
-        }
-        .style_boder,
-        .style_boder1,
-        .style_boder2,
-        .style_boder3 {
-            top: 72px;
-        }
-        .underlined {
-            margin-top: 0px;
-        }
-        .cover_green {
-            width: 144px;
-            height: 185px;
-            border-radius: 28px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -244%;
-        }
-        .child_green {
-            width: 133px;
-            height: 189px;
-            border: 5px #5ba618 solid;
-            border-radius: 28px;
-        }
-        .green_top {
-            width: 123px;
-            height: 30%;
-            background-color: #5ba618;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top i {
-            color: white;
-            font-size: 33px;
-        }
-        .green_button h5 {
-            font-size: 14px;
-        }
-        .cover_green1 {
-            width: 144px;
-            height: 185px;
-            border-radius: 28px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -313%;
-        }
-        .child_green1 {
-            width: 133px;
-            height: 189px;
-            border: 5px #2d9bbc solid;
-            border-radius: 28px;
-        }
-        .green_top1 {
-            width: 123px;
-            height: 30%;
-            background-color: #2d9bbc;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top1 i {
-            color: white;
-            font-size: 33px;
-        }
-        .green_button1 h5 {
-            font-size: 14px;
-        }
-        .cover_green2 {
-            width: 144px;
-            height: 185px;
-            border-radius: 28px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -232%;
-        }
-        .child_green2 {
-            width: 133px;
-            height: 189px;
-            border: 5px #d1228b solid;
-            border-radius: 28px;
-        }
-        .green_top2 {
-            width: 123px;
-            height: 30%;
-            background-color: #d1228b;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top2 i {
-            color: white;
-            font-size: 33px;
-        }
-        .green_button2 h5 {
-            font-size: 14px;
-        }
-        .cover_green3 {
-            width: 144px;
-            height: 185px;
-            border-radius: 28px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -318%;
-        }
-        .child_green3 {
-            width: 133px;
-            height: 189px;
-            border: 5px #fe8627 solid;
-            border-radius: 28px;
-        }
-        .green_top3 {
-            width: 123px;
-            height: 30%;
-            background-color: #fe8627;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top3 i {
-            color: white;
-            font-size: 33px;
-        }
-        .green_button3 h5 {
-            font-size: 14px;
-        }
+    .location i {
+        font-size: 35px;
     }
-    
-    @media (max-width:414px) {
-        .banner_product_left img {
-            width: 200px;
-            height: 215px;
-        }
-        .responsivemobile {
-            width: auto;
-            margin: 0 auto;
-            margin-top: -30%;
-        }
-        .banner_product_left img {
-            width: 200px;
-            height: 215px;
-            margin-top: -236px;
-            margin-left: 15px;
-        }
-        .banner_roadmap {
-            display: none;
-        }
-        .banner_roadmapmobile {
-            display: flex;
-            margin-top: 10px;
-        }
-        .farm_game {
-            display: none;
-        }
-        .farm_gamemobile {
-            display: flex;
-        }
-        .banner_product_right ul li {
-            font-size: 10px;
-        }
-        .banner_product {
-            width: 100%;
-            height: 252px;
-        }
-        .con {
-            height: 5px;
-            width: 5px;
-        }
-        .cha {
-            height: 15px;
-            width: 15px;
-        }
-        .footer_product i {
-            color: white;
-            font-size: 13px;
-        }
-        .footer_product {
-            height: 30px;
-        }
-        .Rabbiz_farm img {
-            position: absolute;
-            top: 0%;
-            left: 83%;
-            width: 72px !important;
-        }
-        .Rabbiz_farm {
-            margin-top: 10px;
-        }
-        .button_rabiz_token button {
-            font-size: 12px;
-            padding: 8px;
-            margin-top: 15px;
-        }
-        .button_rabiz_token button h5 {
-            color: #e82c8b;
-            font-size: 11px;
-        }
-        .more_in4 ul li {
-            margin-top: 4px;
-            font-size: 7px;
-        }
-        .button_buy_token button {
-            padding: 5px;
-        }
-        .cover_green {
-            width: 100px;
-            height: 154px;
-            border-radius: 28px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -300%;
-        }
-        .child_green {
-            width: 94px;
-            height: 149px;
-            border: 5px #5ba618 solid;
-            border-radius: 28px;
-        }
-        .green_top {
-            width: 86px;
-            height: 30%;
-            background-color: #5ba618;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top i {
-            color: white;
-            font-size: 25px;
-        }
-        .location i {
-            margin-top: -110%;
-            font-size: 25px;
-        }
-        .green_button h5 {
-            font-size: 9px;
-        }
-        .cover_green1 {
-            width: 100px;
-            height: 154px;
-            border-radius: 28px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -363%;
-            margin-left: -12%;
-        }
-        .child_green1 {
-            width: 94px;
-            height: 149px;
-            border: 5px #2d9bbc solid;
-            border-radius: 20px;
-        }
-        .green_top1 {
-            width: 86px;
-            height: 30%;
-            background-color: #2d9bbc;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top1 i {
-            color: white;
-            font-size: 25px;
-        }
-        .location1 i {
-            font-size: 25px;
-        }
-        .green_button1 h5 {
-            font-size: 9px;
-        }
-        .cover_green2 {
-            width: 100px;
-            height: 154px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -284%;
-            margin-left: -12%;
-        }
-        .child_green2 {
-            width: 94px;
-            height: 149px;
-            border: 5px #d1228b solid;
-            border-radius: 20px;
-        }
-        .green_top2 {
-            width: 86px;
-            height: 30%;
-            background-color: #d1228b;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top2 i {
-            color: white;
-            font-size: 25px;
-        }
-        .location2 i {
-            font-size: 25px;
-        }
-        .green_button2 h5 {
-            font-size: 9px;
-        }
-        .cover_green3 {
-            width: 100px;
-            height: 154px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -370%;
-            margin-left: -12%;
-        }
-        .child_green3 {
-            width: 94px;
-            height: 149px;
-            border: 5px #fe8627 solid;
-            border-radius: 20px;
-        }
-        .green_top3 {
-            width: 86px;
-            height: 30%;
-            background-color: #fe8627;
-            border-radius: 17px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top3 i {
-            color: white;
-            font-size: 25px;
-        }
-        .location3 i {
-            font-size: 25px;
-        }
-        .green_button3 h5 {
-            font-size: 9px;
-        }
-        .Rabbiz_farm img {
-            position: absolute;
-            top: 0%;
-            left: 82%;
-            width: 72px !important;
-        }
-        .banner_product_right {
-            width: 50%;
-            float: left;
-            height: 500px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -28%;
-        }
+}
+
+@media (max-width:414px) {
+    .more_in4 ul {
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 13%;
     }
-    
-    @media (max-width:375px) {
-        .main_roadmap {
-            height: 100%;
-        }
-        .responsivemobile {
-            width: auto;
-            margin: 0 auto;
-            margin-top: -34%;
-        }
-        .banner_product_right ul li {
-            font-size: 7px;
-        }
-        .banner_product {
-            width: 100%;
-            height: 252px;
-        }
-        .banner_product_left img {
-            width: 200px;
-            height: 198px;
-            margin-top: -225px;
-            margin-left: 22px;
-        }
-        .Rabbiz_farm img {
-            position: absolute;
-            top: 0%;
-            left: 79%;
-            width: 72px !important;
-        }
-        .cover_green {
-            width: 85px;
-            height: 140px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -305%;
-        }
-        .child_green {
-            width: 77px;
-            height: 133px;
-            border: 5px #5ba618 solid;
-            border-radius: 20px;
-        }
-        .green_top {
-            width: 70px;
-            height: 30%;
-            background-color: #5ba618;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top i {
-            color: white;
-            font-size: 22px;
-        }
-        .location i {
-            font-size: 25px;
-        }
-        .green_button h5 {
-            font-size: 9px;
-        }
-        .cover_green1 {
-            width: 85px;
-            height: 140px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -371%;
-        }
-        .child_green1 {
-            width: 77px;
-            height: 133px;
-            border: 5px #2d9bbc solid;
-            border-radius: 20px;
-        }
-        .green_top1 {
-            width: 70px;
-            height: 30%;
-            background-color: #2d9bbc;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top1 i {
-            color: white;
-            font-size: 22px;
-        }
-        .location1 i {
-            font-size: 25px;
-        }
-        .green_button1 h5 {
-            font-size: 9px;
-        }
-        .cover_green2 {
-            width: 85px;
-            height: 140px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -285%;
-        }
-        .child_green2 {
-            width: 77px;
-            height: 133px;
-            border: 5px #d1228b solid;
-            border-radius: 20px;
-        }
-        .green_top2 {
-            width: 70px;
-            height: 30%;
-            background-color: #d1228b;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top2 i {
-            color: white;
-            font-size: 22px;
-        }
-        .location2 i {
-            font-size: 25px;
-        }
-        .green_button2 h5 {
-            font-size: 9px;
-        }
-        .cover_green3 {
-            width: 85px;
-            height: 140px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -370%;
-        }
-        .child_green3 {
-            width: 77px;
-            height: 133px;
-            border: 5px #fe8627 solid;
-            border-radius: 20px;
-        }
-        .green_top3 {
-            width: 70px;
-            height: 30%;
-            background-color: #fe8627;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .green_top3 i {
-            color: white;
-            font-size: 22px;
-        }
-        .location3 i {
-            font-size: 25px;
-        }
-        .green_button3 h5 {
-            font-size: 9px;
-        }
+    .banner_product_left img {
+        width: 200px;
+        height: 215px;
+        margin-top: -163px;
+        margin-left: 15px;
     }
-    
-    @media (max-width:320px) {
-        .banner_product_right ul li {
-            font-size: 7px;
-        }
-        .box-in4 img {
-            width: 125px !important;
-            position: relative;
-        }
-        .box-in4 h3 {
-            width: 159px !important;
-            position: absolute;
-            top: 31%;
-            left: 2%;
-            /* text-align: center; */
-            font-size: 13px;
-        }
-        .Rabbiz_farm img {
-            position: absolute;
-            top: 0%;
-            left: 78%;
-            width: 64px !important;
-        }
-        .cover_green {
-            width: 72px;
-            height: 117px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -302%;
-        }
-        .child_green {
-            width: 65px;
-            height: 110px;
-            border: 5px #5ba618 solid;
-            border-radius: 14px;
-        }
-        .green_top i {
-            color: white;
-            font-size: 15px;
-        }
-        .green_top {
-            width: 56px;
-            height: 30%;
-            background-color: #5ba618;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .location i {
-            font-size: 20px;
-        }
-        .cover_green1 {
-            width: 72px;
-            height: 117px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -377%;
-        }
-        .child_green1 {
-            width: 65px;
-            height: 110px;
-            border: 5px #2d9bbc solid;
-            border-radius: 14px;
-        }
-        .green_top1 i {
-            color: white;
-            font-size: 15px;
-        }
-        .green_button h5 {
-            font-size: 6px;
-        }
-        .green_top1 {
-            width: 56px;
-            height: 30%;
-            background-color: #2d9bbc;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .location1 i {
-            font-size: 20px;
-            margin-top: -214%;
-        }
-        .green_button1 h5 {
-            font-size: 6px;
-        }
-        .cover_green2 {
-            width: 72px;
-            height: 117px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -286%;
-        }
-        .child_green2 {
-            width: 65px;
-            height: 110px;
-            border: 5px #d1228b solid;
-            border-radius: 14px;
-        }
-        .green_top2 i {
-            color: white;
-            font-size: 15px;
-        }
-        .green_button2 h5 {
-            font-size: 6px;
-        }
-        .green_top2 {
-            width: 56px;
-            height: 30%;
-            background-color: #d1228b;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .location2 i {
-            font-size: 20px;
-        }
-        .green_button2 h5 {
-            font-size: 6px;
-        }
-        .cover_green3 {
-            width: 72px;
-            height: 117px;
-            border-radius: 20px;
-            background-color: white;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: -383%;
-        }
-        .child_green3 {
-            width: 65px;
-            height: 110px;
-            border: 5px #fe8627 solid;
-            border-radius: 14px;
-        }
-        .green_top3 i {
-            color: white;
-            font-size: 15px;
-        }
-        .green_button3 h5 {
-            font-size: 6px;
-        }
-        .green_top3 {
-            width: 56px;
-            height: 30%;
-            background-color: #fe8627;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .location3 i {
-            font-size: 20px;
-            margin-top: -218%;
-        }
-        .green_button3 h5 {
-            font-size: 6px;
-        }
-        .responsivemobile {
-            width: auto;
-            margin: 0 auto;
-            margin-top: -52%;
-        }
+    .responsivemobile {
+        width: auto;
+        margin: 0 auto;
+        margin-top: -30%;
     }
+    .banner_roadmap {
+        display: none;
+    }
+    .banner_roadmapmobile {
+        display: flex;
+        margin-top: 10px;
+    }
+    .banner_product_right {
+        width: 50%;
+        float: left;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -33%;
+    }
+    .banner_main_roadmap {
+        margin-top: -25%;
+    }
+    .farm_game {
+        display: none;
+    }
+    .farm_gamemobile {
+        display: flex;
+    }
+    .banner_product_right ul li {
+        font-size: 10px;
+    }
+    .banner_product {
+        width: 100%;
+        height: 252px;
+    }
+    .con {
+        height: 5px;
+        width: 5px;
+    }
+    .cha {
+        height: 15px;
+        width: 15px;
+    }
+    .footer_product i {
+        color: white;
+        font-size: 13px;
+    }
+    .footer_product {
+        height: 30px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 83%;
+        width: 72px !important;
+    }
+    .Rabbiz_farm {
+        margin-top: 10px;
+    }
+    .button_rabiz_token button {
+        font-size: 12px;
+        padding: 8px;
+        margin-top: 15px;
+    }
+    .button_rabiz_token button h5 {
+        color: #e82c8b;
+        font-size: 11px;
+    }
+    .more_in4 ul li {
+        margin-top: 4px;
+        font-size: 7px;
+    }
+    .button_buy_token button {
+        padding: 5px;
+    }
+    .cover_green {
+        width: 100px;
+        height: 154px;
+        border-radius: 28px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -300%;
+    }
+    .child_green {
+        width: 94px;
+        height: 149px;
+        border: 5px #5ba618 solid;
+        border-radius: 28px;
+    }
+    .green_top {
+        width: 86px;
+        height: 30%;
+        background-color: #5ba618;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top i {
+        color: white;
+        font-size: 25px;
+    }
+    .location i {
+        margin-top: -110%;
+        font-size: 25px;
+    }
+    .green_button h5 {
+        font-size: 9px;
+    }
+    .cover_green1 {
+        width: 100px;
+        height: 154px;
+        border-radius: 28px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -363%;
+        margin-left: -12%;
+    }
+    .child_green1 {
+        width: 94px;
+        height: 149px;
+        border: 5px #2d9bbc solid;
+        border-radius: 20px;
+    }
+    .green_top1 {
+        width: 86px;
+        height: 30%;
+        background-color: #2d9bbc;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top1 i {
+        color: white;
+        font-size: 25px;
+    }
+    .location1 i {
+        font-size: 25px;
+    }
+    .green_button1 h5 {
+        font-size: 9px;
+    }
+    .cover_green2 {
+        width: 100px;
+        height: 154px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -284%;
+        margin-left: -12%;
+    }
+    .child_green2 {
+        width: 94px;
+        height: 149px;
+        border: 5px #d1228b solid;
+        border-radius: 20px;
+    }
+    .green_top2 {
+        width: 86px;
+        height: 30%;
+        background-color: #d1228b;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top2 i {
+        color: white;
+        font-size: 25px;
+    }
+    .location2 i {
+        font-size: 25px;
+    }
+    .green_button2 h5 {
+        font-size: 9px;
+    }
+    .cover_green3 {
+        width: 87px;
+        height: 154px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -370%;
+        margin-left: -12%;
+    }
+    .child_green3 {
+        width: 94px;
+        height: 149px;
+        border: 5px #fe8627 solid;
+        border-radius: 20px;
+    }
+    .green_top3 {
+        width: 86px;
+        height: 30%;
+        background-color: #fe8627;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top3 i {
+        color: white;
+        font-size: 25px;
+    }
+    .location3 i {
+        font-size: 25px;
+        margin-left: -4%;
+    }
+    .green_button3 h5 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:375px) {
+    .main_roadmap {
+        height: 100%;
+    }
+    .more_in4 ul {
+        text-align: left;
+        margin-left: 9%;
+        margin-top: 14%;
+    }
+    .banner_main_roadmap {
+        margin-top: -30%;
+    }
+    .responsivemobile {
+        width: auto;
+        margin: 0 auto;
+        margin-top: -34%;
+    }
+    .banner_product_right ul li {
+        font-size: 7px;
+    }
+    .banner_product {
+        width: 100%;
+        height: 252px;
+    }
+    .banner_product_right {
+        width: 50%;
+        float: left;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -39%;
+    }
+    .banner_product_left img {
+        width: 200px;
+        height: 198px;
+        margin-top: -153px;
+        margin-left: 22px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 81%;
+        width: 72px !important;
+    }
+    .cover_green {
+        width: 85px;
+        height: 140px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -305%;
+    }
+    .child_green {
+        width: 77px;
+        height: 133px;
+        border: 5px #5ba618 solid;
+        border-radius: 20px;
+    }
+    .green_top {
+        width: 70px;
+        height: 30%;
+        background-color: #5ba618;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top i {
+        color: white;
+        font-size: 22px;
+    }
+    .location i {
+        font-size: 25px;
+    }
+    .green_button h5 {
+        font-size: 9px;
+    }
+    .cover_green1 {
+        width: 85px;
+        height: 140px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -371%;
+    }
+    .child_green1 {
+        width: 77px;
+        height: 133px;
+        border: 5px #2d9bbc solid;
+        border-radius: 20px;
+    }
+    .green_top1 {
+        width: 70px;
+        height: 30%;
+        background-color: #2d9bbc;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top1 i {
+        color: white;
+        font-size: 22px;
+    }
+    .location1 i {
+        font-size: 25px;
+    }
+    .green_button1 h5 {
+        font-size: 9px;
+    }
+    .cover_green2 {
+        width: 85px;
+        height: 140px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -285%;
+    }
+    .child_green2 {
+        width: 77px;
+        height: 133px;
+        border: 5px #d1228b solid;
+        border-radius: 20px;
+    }
+    .green_top2 {
+        width: 70px;
+        height: 30%;
+        background-color: #d1228b;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top2 i {
+        color: white;
+        font-size: 22px;
+    }
+    .location2 i {
+        font-size: 25px;
+    }
+    .green_button2 h5 {
+        font-size: 9px;
+    }
+    .cover_green3 {
+        width: 85px;
+        height: 140px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -370%;
+    }
+    .child_green3 {
+        width: 77px;
+        height: 133px;
+        border: 5px #fe8627 solid;
+        border-radius: 20px;
+    }
+    .green_top3 {
+        width: 70px;
+        height: 30%;
+        background-color: #fe8627;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .green_top3 i {
+        color: white;
+        font-size: 22px;
+    }
+    .location3 i {
+        font-size: 25px;
+        margin-left: -10%;
+    }
+    .green_button3 h5 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:320px) {
+    .banner_product_right ul li {
+        font-size: 7px;
+    }
+    .box-in4 img {
+        width: 125px !important;
+        position: relative;
+    }
+    .box-in4 h3 {
+        width: 159px !important;
+        position: absolute;
+        top: 31%;
+        left: 2%;
+        /* text-align: center; */
+        font-size: 13px;
+    }
+    .Rabbiz_farm img {
+        position: absolute;
+        top: 0%;
+        left: 80%;
+        width: 64px !important;
+    }
+    .cover_green {
+        width: 72px;
+        height: 117px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -302%;
+    }
+    .child_green {
+        width: 65px;
+        height: 110px;
+        border: 5px #5ba618 solid;
+        border-radius: 14px;
+    }
+    .green_top i {
+        color: white;
+        font-size: 15px;
+    }
+    .green_top {
+        width: 56px;
+        height: 30%;
+        background-color: #5ba618;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .location i {
+        font-size: 20px;
+    }
+    .cover_green1 {
+        width: 72px;
+        height: 117px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -377%;
+    }
+    .child_green1 {
+        width: 65px;
+        height: 110px;
+        border: 5px #2d9bbc solid;
+        border-radius: 14px;
+    }
+    .green_top1 i {
+        color: white;
+        font-size: 15px;
+    }
+    .green_button h5 {
+        font-size: 6px;
+    }
+    .green_top1 {
+        width: 56px;
+        height: 30%;
+        background-color: #2d9bbc;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .location1 i {
+        font-size: 20px;
+        margin-top: -214%;
+    }
+    .green_button1 h5 {
+        font-size: 6px;
+    }
+    .cover_green2 {
+        width: 72px;
+        height: 117px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -286%;
+    }
+    .child_green2 {
+        width: 65px;
+        height: 110px;
+        border: 5px #d1228b solid;
+        border-radius: 14px;
+    }
+    .green_top2 i {
+        color: white;
+        font-size: 15px;
+    }
+    .green_button2 h5 {
+        font-size: 6px;
+    }
+    .green_top2 {
+        width: 56px;
+        height: 30%;
+        background-color: #d1228b;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .location2 i {
+        font-size: 20px;
+    }
+    .green_button2 h5 {
+        font-size: 6px;
+    }
+    .cover_green3 {
+        width: 72px;
+        height: 117px;
+        border-radius: 20px;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -383%;
+    }
+    .child_green3 {
+        width: 65px;
+        height: 110px;
+        border: 5px #fe8627 solid;
+        border-radius: 14px;
+    }
+    .green_top3 i {
+        color: white;
+        font-size: 15px;
+    }
+    .green_button3 h5 {
+        font-size: 6px;
+    }
+    .green_top3 {
+        width: 56px;
+        height: 30%;
+        background-color: #fe8627;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .location3 i {
+        font-size: 20px;
+        margin-top: -218%;
+        margin-left: -10%;
+    }
+    .green_button3 h5 {
+        font-size: 6px;
+    }
+    .responsivemobile {
+        width: auto;
+        margin: 0 auto;
+        margin-top: -52%;
+    }
+    .but_farm button {
+        font-size: 12px;
+        margin-top: -8%;
+    }
+    .banner_product_right ul li {
+        font-size: 7px;
+        padding-top: 0px;
+    }
+    .banner_product_left img {
+        width: 150px;
+        height: 150px;
+        margin-top: -185px;
+        margin-left: 22px;
+    }
+    .banner_product_right ul {
+        text-align: left;
+        margin-top: -77px;
+    }
+    .more_in4 ul {
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 24%;
+    }
+    .but_farm1 button {
+        margin-top: -6px;
+        background-color: #ff7a9d;
+        font-size: 12px;
+    }
+    .banner_main_roadmap {
+        margin-top: -44%;
+    }
+}
