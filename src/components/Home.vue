@@ -209,7 +209,7 @@
             </li>
             <li>
               <span class="cha"><span class="con"></span></span>Starting priec:
-              $USD 0.1.
+              $0.1
             </li>
           </ul>
         </div>
@@ -477,7 +477,26 @@
         </div>
       </div>
     </div>
+    
+    <div class="connect_with">
+    <h4>CONNECT WITH US</h4>
+    </div>
+    <div class="icon_footer">
+    <i class="fab fa-medium"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-telegram"></i>
+  
+    <i class="fab fa-instagram-square"></i>
+    <i class="fab fa-twitter-square"></i>
+   <i class="fab fa-facebook"></i>
+    </div>
   </div>
+
+
+
+
+
+  
 </template>
 
 <script>
