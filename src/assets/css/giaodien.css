@@ -1034,9 +1034,7 @@
         .banner_roadmapmobile {
             display: none;
         }
-        .footer_product i {
-            font-weight: 400;
-        }
+    
         .farm_gamemobile {
             display: none;
         }
@@ -1357,10 +1355,10 @@
         }
         .footer_product i {
             color: white;
-            font-size: 13px;
+            font-size: 5vw;
         }
         .footer_product {
-            height: 30px;
+            height: 12vw;
         }
         .Rabbiz_farm img {
             position: absolute;

@@ -139,7 +139,7 @@
   .vision_mission_tittle p {
     color: white;
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 50px;
     padding: 0px;
     font-style: italic;
     margin: 0;
@@ -176,7 +176,7 @@
   .solgan {
     color: white;
     background-color: #fac0ce;
-    font-size: 22px;
+    font-size: 18px;
     display: inline-block;
   }
   .title {
@@ -398,7 +398,8 @@
 padding: 0px;
 }
 .solgan {
-  font-size: 100%;
+  float: left;
+  font-size: 6px;
 }
 .title_solgan {
   font-size: 100%;
@@ -440,9 +441,7 @@ header {
 .navbar{
   padding: 0px;
 }
-.solgan {
-  font-size: 100%;
-}
+
 .title_solgan {
   font-size: 100%;
 }
